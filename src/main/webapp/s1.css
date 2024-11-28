@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	width: 100%;
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)), url(1.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
+.navbar {
+	width: 100vw;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.icon {
+	width: 20%;
+	height: 80px;
+	margin-left: 2%;
+}
+
+.logo {
+	color: hsl(27, 100%, 50%);
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+.menu {
+	width: 40%;
+	height: 70px;
+}
+
+.menu ul {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: right;
+}
+
+.menu ul li {
+	list-style: none;
+	padding-top: 15px;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-family: Arial;
+	font-weight: bold;
+	transition: 0.4s ease-in-out;
+}
+
+.menu ul li a:hover {
+	color: orange;
+}
+
+.content {
+	width: 350px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	color: #fff;
+}
+
+.content h2 {
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 10px 0;
+}
+
+.content h2 span {
+	color: #ff7200;
+}
+
+.content input {
+	margin-left: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	width: 200px;
+	line-height: 26px;
+}
+
+.content h1 input {
+	width: 70px;
+	line-height: 30px;
+	margin-bottom: 10px;
+	margin: auto;
+	text-transform: uppercase;
+	text-align: center;
+}

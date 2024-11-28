@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(1.jpg);
+   	background-position :center;
+    background-size:cover;
+    height:100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+   
+    float: left;
+    padding-top:10px;
+    margin-top:5px;
+}
+.menu{
+	width:300px;
+	float:left;
+	height:70px;
+	position:fixed;
+	font-family:'Titillium Web',sans-selif;
+	z-index:100;
+	left:370px
+}
+
+.menu ul{
+	
+	float:left;
+	
+	display:flex;
+	justify-content:center;
+	align-items:right;
+	
+}
+ .menu ul li{
+ 	list-style:none;
+ 	
+    margin-left:200px;
+ 	margin-top:15px;
+    font-size:20px;
+ }
+ .menu ul li a{
+ 	text-decoration:none;
+ 	color:#fff;
+ 	
+ 	font-family:Arial;
+ 	font-weight:bold;
+ 	transition:0.4s ease-in-out;
+ }
+.menu ul li a:hover{
+	color:orange;
+}
+.master{
+	position:left;
+	left:0;
+	width:100px;
+	height:50%;	
+	
+	
+}
+.master h2{
+	font-size:30px;
+	text-align:center;
+	margin-left:80px;
+	
+    font-family: Arial;
+   color:#ff7200;
+    float: left;
+}
+.master ul {
+	display:inline-block;
+	height: 70%;
+	width:100;
+	margin-left:25px;
+	line-height:45px;
+	font-size:20px;
+	color:white;
+	padding-left:40px;
+	box-sizing:border-box;
+	
+	
+}
+.master ul li a {
+	
+	color:#fff;
+	}
+.master ul li a:hover {
+	
+	color:#ff7200;
+	}
+.id h4{
+	font-size:18px;
+	color:#fff;
+}.content{
+	
+	
+	position:absolute;
+	color:#fff;
+}
+.content h2{
+	font-size:35px;
+	margin-top:100px;
+	margin-Left:220px;
+	
+	color:#fff;
+}
+.content h2 span{
+	color:#ff7200;
+	
+	}
+.content input{
+	margin-left:10px;
+	
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-end;
+	width:200px;
+	line-height:26px;
+	
+	
+	
+} 
+.content h1 input{
+	width:60px;
+	line-height:28px;
+	margin-bottom:10px;
+	margin: auto;
+	font-size:18px;
+	text-align:center;
+}
+
+.cat {
+	font-size:17px;
+	margin-left:380px;
+	margin-top:30px;
+	font-weight:bold;
+}
+.cat h1{
+	margin-left:0;
+	margin-top:-30px;
+	
+}
+.tableset{
+	margin-left:340px;
+	margin-top:30px;
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+}
+.tableset table tr{
+	
+	color:#fff;
+}
+.tableset table tr td a{
+	
+	color: #fff;
+}
+.tableset table tr td a:hover{
+	
+	color: #ff7200;
+}
+.tableset table tr th{
+	
+	color: #ff7200;
+}
